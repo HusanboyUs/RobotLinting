@@ -25,4 +25,4 @@ jobs:
     
           - name: Run linting
             run: |
-              robotidy /Tests OPT-WSNOC-1.robot
+              robotidy Tests/OPT-WSNOC-1.robot
