@@ -26,3 +26,11 @@ jobs:
           - name: Run linting
             run: |
               robotidy Tests/OPT-WSNOC-1.robot
+          
+          - name: Commit and push changes
+            run: |
+              git config --local user.email "husanghost@gmail.com"
+              git config --local user.name "HusanboyUs"
+              git add Tests/OPT-WSNOC-1.robot
+              git commit -m "Linting and formatting changes"
+              git push
