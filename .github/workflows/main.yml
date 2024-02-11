@@ -33,4 +33,4 @@ jobs:
                git config --global user.name "HusanboyUs"
                git add Tests/OPT-WSNOC-1.robot
                git commit -m "Linting and formatting changes"
-               git push
+               git push -u origin lintedRobot
